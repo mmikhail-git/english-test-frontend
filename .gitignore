@@ -1,0 +1,26 @@
+# Игнорируем зависимости
+/node_modules
+
+# Игнорируем файлы сборки
+/build
+
+# Игнорируем файлы окружения
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Игнорируем кэш
+.npm
+.yarn
+.pnpm
+
+# Игнорируем логи и временные файлы
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Игнорируем системные файлы
+.DS_Store
